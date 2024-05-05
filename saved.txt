@@ -1,0 +1,7 @@
+Account Number: 123
+Name: jack
+Date Created: 2024
+Current Balance: 2000.0
+Withdraw Limit: 200.0
+Withdraw Amount: 0.0
+End
