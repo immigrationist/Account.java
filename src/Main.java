@@ -7,7 +7,7 @@ public class Main {
         Bank bank = new Bank(100);
 
         try {
-            bank.load("/Users/ahmetberky/Desktop/JAVA/HW 5 FINISHED/src/accounts/saved.txt");
+            bank.load("C:\\Users\\ahmet\\IdeaProjects\\Account.java\\src\\accounts\\saved.txt");
         } catch (Exception e) {
             System.out.println("Unable to load accounts");
         }
@@ -135,7 +135,7 @@ public class Main {
                     break;
                     case 7:
                         try {
-                            bank.save("/Users/ahmetberky/Desktop/JAVA/HW 5 FINISHED/src/accounts/saved.txt");
+                            bank.save("C:\\Users\\ahmet\\IdeaProjects\\Account.java\\src\\accounts\\saved.txt");
                         } catch (Exception e) {
                             System.out.println("Unable to save accounts to file.");
                         }
